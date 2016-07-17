@@ -96,14 +96,6 @@ def logout():
   flash('You were logged out')
   return redirect(url_for('show_entries'))
 
-<<<<<<< HEAD
+
 if __name__ == '__main__':
     app.run(host= '0.0.0.0')
-=======
-
-if __name__ == '__main__':
-    app.run()
-
-
->>>>>>> f7eb6d90b602ebcfda278f67a1d9e2de6dd083c6
-
